@@ -1,0 +1,11 @@
+name: Alz8rtDrill
+main: com.alz8rt.drill.Alz8rtDrill
+version: 1.0.0
+api-version: 1.21
+commands:
+  drillgive:
+    description: Gives the drill pickaxe
+    permission: alz8rt.drill.give
+permissions:
+  alz8rt.drill.give:
+    default: op
